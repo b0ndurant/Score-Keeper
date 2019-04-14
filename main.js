@@ -38,3 +38,8 @@ function reset() {
 	removeClass();
 	setAtt();
 }
+
+function newValue() {
+	startValue = document.getElementById('inputScore').value;
+	reset();
+}
