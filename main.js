@@ -55,3 +55,8 @@ function setAtt() {
 	btnPlayer2.setAttribute('onclick','player2()');
 	btnPlayer1.setAttribute('onclick','player1()');
 }
+
+function removeAtt() {
+	btnPlayer2.removeAttribute('onclick');
+	btnPlayer1.removeAttribute('onclick');
+}
