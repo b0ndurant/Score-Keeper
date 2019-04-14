@@ -43,3 +43,15 @@ function newValue() {
 	startValue = document.getElementById('inputScore').value;
 	reset();
 }
+
+function removeClass() {
+	let classes = document.getElementsByClassName('win');
+	for (let classe of classes) {
+		classe.classList.remove('win');
+	}
+}
+
+function setAtt() {
+	btnPlayer2.setAttribute('onclick','player2()');
+	btnPlayer1.setAttribute('onclick','player1()');
+}
