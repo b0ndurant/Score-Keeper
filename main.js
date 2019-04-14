@@ -60,3 +60,11 @@ function removeAtt() {
 	btnPlayer2.removeAttribute('onclick');
 	btnPlayer1.removeAttribute('onclick');
 }
+
+document.getElementsByTagName('form')[0].addEventListener('input', function () {
+	if (document.getElementById('inputScore').value != startValue) {
+		startValue = document.getElementById('inputScore').value;
+		setAtt();
+		removeClass();
+	}
+});
