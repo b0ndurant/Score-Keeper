@@ -1,0 +1,33 @@
+.reset {
+	margin: auto;
+}
+
+.win {
+	color: green;
+	-webkit-animation: pulsate 0.7s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 1;
+}
+
+.col-md-3 {
+	border: solid 2px;
+	border-radius: 10px;
+	margin: 0px 5px;
+	padding: 0;
+}
+
+@-webkit-keyframes pulsate {
+    0% { 
+        opacity: 0;
+    }
+    50% { 
+        opacity: 0;
+    }
+    100% { 
+        opacity: 1;
+    }
+}
+
+h1 ,.row {
+	padding-bottom: 20px
+}
