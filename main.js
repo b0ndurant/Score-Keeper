@@ -29,3 +29,12 @@ function player2() {
 		score2.textContent = count2;
 	}
 }
+
+function reset() {
+	count1 = 0;
+	count2 = 0;
+	score1.textContent = count1;
+	score2.textContent = count2;
+	removeClass();
+	setAtt();
+}
